@@ -29,8 +29,8 @@ include_directories(${OpenCV_INCLUDE_DIRS} include/)
 add_executable("${project_name}"
         PRJ34-S008284-S010097.cpp
         include/ImageReader.h src/ImageReader.cpp include/ImageReader.h
-        src/ImageReader.cpp include/ImageReader.h src/TinyImages.cpp
-        include/TinyImages.h src/BagOfSIFT.cpp include/BagOfSIFT.h src/KNNTest.cpp include/KNNTest.h src/SVMAnalysis.cpp include/SVMAnalysis.h src/Evaluator.cpp include/Evaluator.h)
+        src/ImageReader.cpp include/ImageReader.h 
+        src/BagOfSIFT.cpp include/BagOfSIFT.h src/SVMAnalysis.cpp include/SVMAnalysis.h src/Evaluator.cpp include/Evaluator.h)
 
 target_link_libraries( "${project_name}" ${OpenCV_LIBS})
 target_link_libraries("${project_name}"
